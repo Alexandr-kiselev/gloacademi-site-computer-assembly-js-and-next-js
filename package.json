@@ -1,28 +1,27 @@
 {
-  "name": "gloacademi-site-computer-assembly-js-and-next",
-  "version": "1.0.0",
-  "description": "Интенсив по js и next js",
-  "main": "index.js",
+  "name": "ozon-next",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "bulid": "webpack --mode=production",
-    "watch": "webpack --watch --mode=development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alexandr-kiselev/gloacademi-site-computer-assembly-js-and-next-js.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alexandr-kiselev/gloacademi-site-computer-assembly-js-and-next-js/issues"
-  },
-  "homepage": "https://github.com/Alexandr-kiselev/gloacademi-site-computer-assembly-js-and-next-js#readme",
-  "devDependencies": {
-    "webpack": "^5.102.1",
-    "webpack-cli": "^6.0.1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "sass": "^1.94.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
